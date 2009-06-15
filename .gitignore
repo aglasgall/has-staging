@@ -4,52 +4,7 @@
 .#*
 *.swp
 ._*
-
-admin/db/schema.*
-admin/tmp/[^.]*
-admin/log/[^.]*
-
-application/config/shared
-application/lib/shared
-application/config/openfire/openfire.xml
-application/config/database.yml
-application/config/selenium.yml
-application/db/schema.*
-application/tmp/[^.]*
-application/log/[^.]*
-application/doc/app
-# For local rake tasks.
-application/lib/tasks/local.rake
-# Local PostGIS files
-application/db/spatial/*
-
-proxy/log/[^.]*
-proxy/config/nginx.development.conf
-proxy/config/nginx/*
-
-conversion/tmp/[^.]*
-conversion/log/[^.]*
-conversion/coverage
-
-upload/tmp/[^.]*
-upload/log/[^.]*
-
-download/tmp/[^.]*
-download/log/[^.]*
-
-storage/[^.]*
-
-facebook/tmp/[^.]*
-facebook/log/[^.]*
-
-parkplace/log/[^.]*
-parkplace/camping.log
-
-shared/tmp/[^.]*
-shared/coverage
-shared/config/google_maps.yml
-
-monitor_client/config/config.yml
+*.log
 
 *.cache
 nohup.out
@@ -66,4 +21,3 @@ TAGS
 *.BASE.*
 *.orig
 
-shared/config/stream.yml
