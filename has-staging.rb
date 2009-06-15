@@ -45,7 +45,7 @@ put '/:name' do
         
     name, project = params[:name], params[:project]
 
-    if @current_lock
+    if current_lock
       halt 409, format_lock(lock)
     else
       insert_time = Time.now.utc
